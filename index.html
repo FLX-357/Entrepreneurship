@@ -2,21 +2,33 @@
 <html lang="en">
   <head>
     <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-VZ5XLY1HGE"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-VZ5XLY1HGE"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-  gtag('config', 'G-VZ5XLY1HGE');
-</script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-TTNNNJPR');</script>
-  <!-- End Google Tag Manager -->
+      gtag("config", "G-VZ5XLY1HGE");
+    </script>
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-TTNNNJPR");
+    </script>
+    <!-- End Google Tag Manager -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Feinkost-Post</title>
@@ -33,15 +45,19 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
-
-    
-  </head>       
+  </head>
 
   <body>
     <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TTNNNJPR"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-TTNNNJPR"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <!-- Title -->
     <section id="title" class="gradient-background">
       <div class="container"></div>
@@ -95,7 +111,7 @@
             Feinkost Post, Ihrem Partner für exquisite Geschmackserlebnisse.
           </p>
           <a href="https://www.google.co/">
-            <button class="btn btn-primary px-4 py-2 fs-5 mt-5">
+            <button id="BTN_Text" class="btn btn-primary px-4 py-2 fs-5 mt-5">
               mehr Infos
             </button></a
           >
@@ -139,7 +155,7 @@
             <p class="mt-5 fs-3 text-uppercase">Abo 1</p>
             <h1 class="display-1 fw-bolder text-capitalize">small</h1>
             <a href="https://www.google.co/">
-              <button class="btn btn-primary px-4 py-2 fs-5 mt-5">
+              <button id="BTN_IMG1" class="btn btn-primary px-4 py-2 fs-5 mt-5">
                 mehr Infos
               </button></a
             >
@@ -156,6 +172,7 @@
             <p class="display-1 fw-bolder text-capitalize">Medium</p>
             <a href="https://www.google.co/"
               ><button
+                id="BTN_IMG1"
                 class="btn btn-primary px-4 py-2 fs-5 mt-5"
                 data-bs-toggle="modal"
                 data-bs-target="#booking-modal"
@@ -176,6 +193,7 @@
             <p class="display-1 fw-bolder text-capitalize">Large</p>
             <a href="https://www.google.co/"
               ><button
+                id="BTN_IMG1"
                 class="btn btn-primary px-4 py-2 fs-5 mt-5"
                 data-bs-toggle="modal"
                 data-bs-target="#booking-modal"
@@ -210,7 +228,7 @@
       <footer class="gradient-background" class="py-3 my-4">
         <ul class="nav justify-content-center pb-3 mb-3">
           <li class="nav-item">
-            <a href="./dicee.html" class="nav-link px-2 text-body-secondary"
+            <a href="#" class="nav-link px-2 text-body-secondary"
               >Home</a
             >
           </li>
