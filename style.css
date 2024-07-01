@@ -34,3 +34,7 @@
     object-fit: cover;
     filter: brightness(0.6);
   }
+  #BTN_Text{
+    justify-content: center;
+
+  }
